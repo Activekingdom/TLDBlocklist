@@ -1,0 +1,2 @@
+# TLDBlocklist
+Block risk TLD 
