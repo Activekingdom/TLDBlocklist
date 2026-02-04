@@ -1,0 +1,5 @@
+! Block fake browser update pages
+##*:has-text(/update required|browser update|security update/i)
+
+!Disable clipboard writes
+*##+js(aop, navigator.clipboard.writeText)
