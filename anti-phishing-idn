@@ -1,5 +1,5 @@
 ! Block all Punycode (xn--) domains — these are NOT normal websites and are commonly used for homograph/phishing attacks
-/xn--/ $all,important
+/xn--/$all,important
 
 ! Non-ASCII characters in FQDN — not a standard ASCII domain
 ! High risk of IDN homograph / phishing attacks
